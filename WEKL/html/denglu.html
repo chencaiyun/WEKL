@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+      /*.box{
+        width: 1000px;
+        margin: 0 auto;
+      }*/
+.top{
+     width: 1000px;
+     height: 100px;
+     margin: 0 auto;
+     overflow: hidden;
+}
+ .top img{
+       margin-top: 20px;
+        float: left;
+ }
+ .top ul{
+     margin-top: 10px;
+    overflow: hidden;
+ }
+ .top li{
+    float: right;
+    margin-right: 20px;
+}
+.banner{
+    height: 520px;
+    background:url(../images/dengluBG.jpg)no-repeat center;
+ }
+.banxin{
+    width:1000px;
+    margin:0 auto;
+    padding-top: 46px;
+}
+.foot_last{
+    width: 100%;
+    height: 153px;
+    background: #fff;
+    overflow: hidden;
+    text-align: center;
+    line-height: 27px;
+}
+.foot_last .word1{
+    margin-top: 15px;
+}
+.foot_last a{
+    font-size: 12px;
+    color: #666;
+}
+.foot_last a:hover{
+    text-decoration: underline;
+}
+.foot_last span{
+     font-size: 12px;
+    margin-right: 23px;
+    margin-left: 23px;
+    color: #b0b0b0;
+}
+.foot_last .word3 img{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.foot_last .word4 img{
+    margin-right: 15px;
+}
+ .center{
+            width: 354px;
+            height: 395px;
+            border:1px solid #ccc;
+	margin-left: 613px;
+            overflow: hidden;
+         }
+    .center .center_top{
+        width: 350px;
+        height: 53px;
+        background: #f8f8f8;
+        border-bottom:1px solid #dddddd;
+        font-size: 16px;
+        padding-left: 34px;
+    }
+    .center .center_top span{
+        margin-right: 50px;
+        font-weight: bolder;
+        line-height: 53px;
+        text-align: center;
+    }
+    .center .center_top .line1{
+        color: #e31436;
+    }
+    .center .center_top .line{
+        color: #dddddd;
+        font-size: 20px;
+    }
+     .center .center_top .line:hover{
+        color: #dddddd;
+     }
+    .center .center_top span:hover{
+        color: #e31436;
+    }
+    .centerBg{
+        width: 355px;
+        height: 298px;
+        background: #fff;
+    }
+    .centerBg_center{
+        width: 270px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .centerBg_center .word{
+        float: right;
+        font-size: 12px;
+        color: #666;
+        margin-top: 20px;
+    }
+    .centerBg_center .word:hover{
+        color: red;
+    }
+    .centerBg_center .word img{
+        margin-right: 5px;
+    }
+    .centerBg_center #phone{
+        float: right;
+        width: 268px;
+        height: 36px;
+        border:1px solid #d5d5d5;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+     .centerBg_center #phone1{
+        float: right;
+        width: 268px;
+        height: 36px;
+        border:1px solid #d5d5d5;
+        border-radius: 5px;
+        margin-top: 40px;
+    }
+    .centerBg_center h3 img{
+        margin-top: 17px;
+    }
+    .word_duanxin{
+        margin-top: 15px;
+        overflow: hidden;
+    }
+    .word_duanxin #duanxin{
+        width: 172px;
+        height: 34px;
+        border:1px solid #d5d5d5;
+        border-right: none;
+        float: left;
+    }
+     .word_duanxin1 #duanxin1{
+       width: 268px;
+        height: 36px;
+        border:1px solid #d5d5d5;
+        border-radius: 5px;
+        margin-top: 18px;
+    }
+    .word_duanxin button{
+        float: right;
+         width: 97px;
+        height: 36px;
+        border:1px solid #d5d5d5;
+
+    }
+
+    .denglu_dl buttom{
+        display: block;
+        margin-top: 30px;
+       width: 270px;
+       height: 35px;
+       background: #e31436;
+       text-align: center;
+       line-height: 35px;
+       font-size: 14px;
+       color: #fff; 
+    }
+     .denglu_dl buttom:hover{
+      background: #f5345e;
+     }
+    .danxuan{
+        font-size: 12px;
+        color: #999;
+        margin-top: 10px;
+    }
+    .dainji:hover{
+      color:red;
+    }
+    .danxuan input{
+        width: 16px;
+        height: 16px;
+        border:1px solid #999;
+        vertical-align: middle;
+    }
+    .danxuan span:hover{
+        color:#e31436;
+    }
+    .danxuan .pag{
+        font-size: 10px;
+        color: #999;
+        float: right;
+    }
+     /*foot*/
+    .foot{
+        width: 355px;
+        height: 43px;
+        background: #f8f8f8;
+        border-top: 1px solid #ddd;
+        overflow: hidden;
+    }
+    .foot h1{
+        float: left;
+        margin-left: 40px;
+    }
+    .foot .foot_word{
+        float: right;
+        line-height: 43px;
+        margin-right: 40px;
+        font-size: 14px;
+        color: #e31436;
+    }
+    .foot .foot_word:hover{
+      text-decoration: underline;
+    }
+    .foot .foot_word img{
+        vertical-align: middle;
+        margin-left: 5px;
+    }
+   #text{
+        font-size: 12px;
+        font-weight: normal;
+        overflow: hidden;
+        position: absolute;
+        top:285px;
+        color: #e31436;
+        display: none;
+    }
+     #text1{
+        font-size: 12px;
+        font-weight: normal;
+        overflow: hidden;
+        position: absolute;
+        top:278px;
+        color: #e31436;
+        display: none;
+    }
+    #password{
+        font-size: 12px;
+        font-weight: normal;
+        overflow: hidden;
+        position: absolute;
+        top:387px;
+        color: #e31436;
+        display: none;
+    }
+     #password1{
+        font-size: 12px;
+        font-weight: normal;
+        overflow: hidden;
+        position: absolute;
+        top:340px;
+        color: #e31436;
+        display: none;
+    }
+    </style>
+        <meta charset="utf-8">
+    </head>
+    <body>
+<div class="box">
+<div class="top">
+            <h2>
+              <img src="../images/logo.jpg" alt="">
+            </h2>
+            <ul>
+                <li><img src="../images/denglu1.jpg" alt=""></li>
+                <li><img src="../images/denglu2.jpg" alt=""></li>
+                <li><img src="../images/denglu3.jpg" alt=""></li>
+            </ul>
+        </div>
+       <div class="banner">
+       <div class="banxin">
+        <div class="center">
+            <p class="center_top">
+                <span class="line1 lin">手机号登陆</span>
+                <span class="line">|</span>
+                <span class="lin">邮箱登陆</span>
+            </p>
+        <div class="centerBg">
+         <div class="centerBg_center">
+                   <p class="word">
+                      <img src="../images/denglu_logo1.jpg" alt="">使用密码验证登录
+                  </p>
+                   <p class="word1">
+                        <input id="phone" type="text" placeholder="请输入手机号">
+                   </p>  
+                    <h6 id="text">手机号不正确,必须以1开头,共11位</h6>
+                   <h3><a href=""><img src="../images/denglu_tiao.jpg" alt=""></a></h3>
+                   <p class="word_duanxin">
+                       <input id="duanxin" type="text" placeholder="请输入短信验证码">
+                       <button class="dainji">获取验证码</button>
+                   </p>
+                    <h6 id="password">请输入验证码，验证码为6位数字</h6>
+                   <p class="denglu_dl">
+                        <buttom id="denglu_id">登录</buttom>
+                   </p>
+                   <p class="danxuan">
+                       <input type="checkbox">
+                       <span>10天免登陆</span>
+                       <span class="pag">遇到问题?</span>
+                   </p>
+              </div>
+
+
+         <div class="centerBg_center" style="display:none">
+                   <p class="word1">
+                        <input id="phone1" type="text" placeholder="网易邮箱账号">
+                   </p>  
+                    <h6 id="text1">邮箱地址不正确</h6>
+                   <p class="word_duanxin1">
+                       <input id="duanxin1" type="text" placeholder="请输入密码">
+                   </p>
+                    <h6 id="password1">密码不正确</h6>
+                   <p class="denglu_dl">
+                        <buttom id="denglu_id">登录</buttom>
+                   </p>
+                   <p class="danxuan">
+                       <input type="checkbox">
+                       <span>10天免费登陆</span>
+                       <span class="pag">忘记密码?</span>
+                   </p>
+               </div>
+            </div>
+        <div class="foot">
+                <h1><img src="../images/denglu_yuan.jpg" alt=""></h1>
+                <p class="foot_word">手机快捷注册
+                    <img src="../images/denglu_logo3.jpg" alt="">
+                </p>
+            </div>
+        </div>
+        </div>
+        </div>
+<div class="foot_last">
+    <div class="footBg">
+        <p class="word1">
+            <a href="http://ir.netease.com/phoenix.zhtml?c=122303&p=irol-IRHome&no_protofix" rel="nofollow" target="_blank" title="About NetEase">About NetEase</a> 
+            <span>|</span>
+            <a href="http://gb.corp.163.com/gb/about/overview.html?no_protofix" rel="nofollow" target="_blank" title="公司简介">公司简介</a>
+            <span>|</span>
+            <a href="http://gb.corp.163.com/gb/contactus.html?no_protofix" rel="nofollow" target="_blank" title="联系方法">联系方法</a> 
+             <span>|</span>
+            <a href="https://www.kaola.com/footer/friendlylink.shtml" target="_blank" title="友情链接" data-param="zn=footer">友情链接</a>
+             <span>|</span>
+             <a href="http://hr.163.com/?no_protofix" rel="nofollow" target="_blank" title="招聘信息">招聘信息</a> 
+              <span>|</span>
+              <a href="http://help.163.com/?no_protofix" rel="nofollow" target="_blank" title="客户服务">客户服务</a> 
+               <span>|</span>
+              <a href="http://gb.corp.163.com/gb/legal.html?no_protofix" rel="nofollow" target="_blank" title="隐私政策">隐私政策</a>
+               <span>|</span>
+              <a href="http://emarketing.163.com/?no_protofix" rel="nofollow" target="_blank" title="网络营销">网络营销</a>
+               <span>|</span>
+              <a href="https://www.kaola.com/" target="_blank" title="网易考拉" data-param="zn=footer">网易考拉</a>
+        </p>
+        <p>
+            <span>网络文化经营许可证：浙网文[2016]0155-055号</span>
+            <span>增值电信业务经营许可证：浙B2-20160288</span>
+            <span>自营经营者信息</span>
+    </p>
+    <p class="word3">
+            <span><img src="images/china.jpg" alt="">浙公网安备 33010802002216号</span>
+            <span>网易公司版权所有&copy;1997-2018</span>
+            <span>互联网药品信息服务资格证书编号（浙）-2017-  浙ICP备16011229号-6</span>
+    </p>
+      <p class="word4">
+        <img src="images/chengxintu.jpg" alt="">
+        <img src="images/chengxintu2.jpg" alt="">
+        <img src="images/china_word.jpg" alt="">
+    </p>
+    </div>
+    </div>
+    </div>
+<!-- 选项卡 -->
+<script src="../js/denglu_qiehuan.js"></script>
+<!-- 手机 短信 js -->
+<script src="../js/denglu_phone.js"></script>
+<!-- 手机 短信 js -->
+<script src="../js/denglu_emile.js"></script>
+    </body>
+</html>
